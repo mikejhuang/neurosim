@@ -1,0 +1,19 @@
+username=mikehuan; export username
+NEURON_HOME=/auto/rcf-proj3/tb/mikehuan/neuron_Files/ca1model/experiment; export NEURON_HOME
+MPJ_HOME=/auto/rcf-proj3/tb/mikehuan/mpj-user/mpj; export MPJ_HOME
+SYNAPSECONFI=SynapseConf_RIT100s_newNMDA.xml; export SYNAPSECONFI
+NEURONPYFI=ca1model.py; export NEURONPYFI
+MPJLAUNCHFI=GluTexpWild.sh; export MPJLAUNCHFI
+MASTERCONFI=masterconf_ca1model_30syn.xml; export MASTERCOFI
+SYNAPSECONF=$MPJ_HOME/bin/$SYNAPSECONFI; export SYNAPSECONF
+NEURONPY=$NEURON_HOME/$NEURONPYFI; export NEURONPY
+MPJLAUNCH=$MPJ_HOME/bin/$MPJLAUNCHFI; export MPJLAUNCH
+MASTERCONF=$NEURON_HOME/$MASTERCONFI; export MASTERCONF
+nbAMPA=50
+nbNMDA=25
+probaRelease=0 # 0 for deterministic or 1 for probabilistic
+initialReleaseProba=0.4
+duration=2000
+#temp=21C
+#initial_v=e_pas=restingmembranepotential=-74
+paramload=done #Place additional parameters above this line

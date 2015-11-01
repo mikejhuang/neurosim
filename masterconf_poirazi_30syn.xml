@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!--Master.xml--><Masterconf>
+	<DebugMode>false</DebugMode>
+	<Duration>2000</Duration>
+	<StepSize>0.0005</StepSize><!--does not work with another value anyway -->
+	<port_i>41012</port_i>
+	<port_j>41010</port_j>
+
+	<ComFactor>250</ComFactor> <!--comm 1 every commfactor steps -->
+	<StoreInDB Password="laloue" URL="jdbc:mysql://eons3ghz.usc.edu/testdb" Username="laloue">false</StoreInDB>
+	<ResultsDirectory>/auto/rcf-proj/tb/mikehuan/neuron_Files/Migfer/Results_2013_6_13_15:10:8</ResultsDirectory>
+
+	<Network>
+		<Neuron description="For Database" name="dendrite_01">
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[60]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[49]">0</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[118]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[30]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[59]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[37]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[45]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[60]">1</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[118]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[64]">1</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[69]">0</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[69]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[71]">0</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[71]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[71]">1</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[73]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[118]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[81]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[83]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[70]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[67]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[68]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[47]">1</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[57]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[47]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[44]">1</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[61]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[63]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[57]">0.5</Position></Synapse>
+<Synapse><file>SYNAPSECONF</file><input>Internal</input><Position Section="apical_dendrite[106]">1</Position></Synapse>
+		</Neuron>
+	</Network>
+
+</Masterconf>

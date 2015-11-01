@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimulationParameters SynapseType="GLU">
+  <GlutamatergicSynapse>
+    <Stimulus DepolarizationType="MTP protocol" numberInstances="1">
+      <values>(# Montpellier LTP Protocol)(0 ; 0.00500000000000000 ; 26 ; 26 ; 27 ; 27 ; 82 ; 82 ; 83 ; 83 ; 307 ; 307 ; 308 ; 308 ; 430 ; 430 ; 431 ; 431 ; 450 ; 450 ; 451 ; 451 ; 613 ; 613 ; 614 ; 614 ; 793 ; 793 ; 794 ; 794 ; 981 ; 981 ; 982 ; 982 ; 1065 ; 1065 ; 1066 ; 1066 ; 1122 ; 1122 ; 1123 ; 1123 ; 1255 ; 1255 ; 1256 ; 1256 ; 1563 ; 1563 ; 1564 ; 1564 ; 2059 ; 2059 ; 2060 ; 2060 ; 2575 ; 2575 ; 2576 ; 2576 ; 2684 ; 2684 ; 2685 ; 2685 ; 2925 ; 2925 ; 2926 ; 2926 ; 3297 ; 3297 ; 3298 ; 3298 ; 3907 ; 3907 ; 3908 ; 3908 ; 4254 ; 4254 ; 4255 ; 4255 ; 4787 ; 4787 ; 4788 ; 4788 ; 5067 ; 5067 ; 5068 ; 5068 ; 5622 ; 5622 ; 5623 ; 5623 ; 5714 ; 5714 ; 5715 ; 5715 ; 7337 ; 7337 ; 7338 ; 7338 ; 7491 ; 7491 ; 7492 ; 7492 ; 8966 ; 8966 ; 8967 ; 8967 ; 9136 ; 9136 ; 9137 ; 9137 ; 9251 ; 9251 ; 9252 ; 9252 ; 9752 ; 9752 ; 9753 ; 9753 ; 11215 ; 11215 ; 11216 ; 11216 ; 13087 ; 13087 ; 13088 ; 13088 ; 13294 ; 13294 ; 13295 ; 13295 ; 13440 ; 13440 ; 13441 ; 13441 ; 13749 ; 13749 ; 13750 ; 13750 ; 14081 ; 14081 ; 14082 ; 14082 ; 14795 ; 14795 ; 14796 ; 14796 ; 14903 ; 14903 ; 14904 ; 14904 ; 15097 ; 15097 ; 15098 ; 15098 ; 15195 ; 15195 ; 15196 ; 15196 ; 15294 ; 15294 ; 15295 ; 15295 ; 15610 ; 15610 ; 15611 ; 15611 ; 15716 ; 15716 ; 15717 ; 15717 ; 17020 ; 17020 ; 17021 ; 17021 ; 17906 ; 17906 ; 17907 ; 17907 ; 18423 ; 18423 ; 18424 ; 18424 ; 18674 ; 18674 ; 18675 ; 18675 ; 19098 ; 19098 ; 19099 ; 19099 ; 20123 ; 20123 ; 20124 ; 20124 ; 20164 ; 20164 ; 20165 ; 20165 ; 20671 ; 20671 ; 20672 ; 20672 ; 20726 ; 20726 ; 20727 ; 20727 ; 21858 ; 21858 ; 21859 ; 21859 ; 22136 ; 22136 ; 22137 ; 22137 ; 22482 ; 22482 ; 22483 ; 22483 ; 22561 ; 22561 ; 22562 ; 22562 ; 22806 ; 22806 ; 22807 ; 22807 ; 22867 ; 22867 ; 22868 ; 22868 ; 23303 ; 23303 ; 23304 ; 23304 ; 23539 ; 23539 ; 23540 ; 23540 ; 23630 ; 23630 ; 23631 ; 23631 ; 24275 ; 24275 ; 24276 ; 24276 ; 24373 ; 24373 ; 24374 ; 24374 ; 24764 ; 24764 ; 24765 ; 24765 ; 25295 ; 25295 ; 25296 ; 25296 ; 25314 ; 25314 ; 25315 ; 25315 ; 25515 ; 25515 ; 25516 ; 25516 ; 26049 ; 26049 ; 26050 ; 26050 ; 27538 ; 27538 ; 27539 ; 27539 ; 28311 ; 28311 ; 28312 ; 28312 ; 28411 ; 28411 ; 28412 ; 28412 ; 28665 ; 28665 ; 28666 ; 28666 ; 28872 ; 28872 ; 28873 ; 28873 ; 29168 ; 29168 ; 29169 ; 29169 ; 29661 ; 29661 ; 29662 ; 29662 ; 30322 ; 30322 ; 30323 ; 30323 ; 31030 ; 31030 ; 31031 ; 31031 ; 32455 ; 32455 ; 32456 ; 32456 ; 33348 ; 33348 ; 33349 ; 33349 ; 33710 ; 33710 ; 33711 ; 33711 ; 34173 ; 34173 ; 34174 ; 34174 ; 36124 ; 36124 ; 36125 ; 36125 ; 36415 ; 36415 ; 36416 ; 36416 ; 37298 ; 37298 ; 37299 ; 37299 ; 37709 ; 37709 ; 37710 ; 37710 ; 37908 ; 37908 ; 37909 ; 37909 ; 39206 ; 39206 ; 39207 ; 39207 ; 39649 ; 39649 ; 39650 ; 39650 ; 39762 ; 39762 ; 39763 ; 39763 ; 41042 ; 41042 ; 41043 ; 41043 ; 41658 ; 41658 ; 41659 ; 41659 ; 43108 ; 43108 ; 43109 ; 43109 ; 43282 ; 43282 ; 43283 ; 43283 ; 43435 ; 43435 ; 43436 ; 43436 ; 44767 ; 44767 ; 44768 ; 44768 ; 44880 ; 44880 ; 44881 ; 44881 ; 45831 ; 45831 ; 45832 ; 45832 ; 45989 ; 45989 ; 45990 ; 45990 ; 47748 ; 47748 ; 47749 ; 47749 ; 47985 ; 47985 ; 47986 ; 47986 ; 48370 ; 48370 ; 48371 ; 48371 ; 49226 ; 49226 ; 49227 ; 49227 ; 49266 ; 49266 ; 49267 ; 49267 ; 49314 ; 49314 ; 49315 ; 49315 ; 50260 ; 50260 ; 50261 ; 50261 ; 50415 ; 50415 ; 50416 ; 50416 ; 51918 ; 51918 ; 51919 ; 51919 ; 52103 ; 52103 ; 52104 ; 52104 ; 52285 ; 52285 ; 52286 ; 52286 ; 52308 ; 52308 ; 52309 ; 52309 ; 52674 ; 52674 ; 52675 ; 52675 ; 53284 ; 53284 ; 53285 ; 53285 ; 53685 ; 53685 ; 53686 ; 53686 ; 55375 ; 55375 ; 55376 ; 55376 ; 56258 ; 56258 ; 56259 ; 56259 ; 56424 ; 56424 ; 56425 ; 56425 ; 56550 ; 56550 ; 56551 ; 56551 ; 57390 ; 57390 ; 57391 ; 57391 ; 58401 ; 58401 ; 58402 ; 58402 ; 59462 ; 59462 ; 59463 ; 59463 ; 59782 ; 59782 ; 59783 ; 59783 ; 61025 ; 61025 ; 61026 ; 61026 ; 61163 ; 61163 ; 61164 ; 61164 ; 61272 ; 61272 ; 61273 ; 61273 ; 61428 ; 61428 ; 61429 ; 61429 ; 61835 ; 61835 ; 61836 ; 61836 ; 63109 ; 63109 ; 63110 ; 63110 ; 63480 ; 63480 ; 63481 ; 63481 ; 64433 ; 64433 ; 64434 ; 64434 ; 64676 ; 64676 ; 64677 ; 64677 ; 65205 ; 65205 ; 65206 ; 65206 ; 65497 ; 65497 ; 65498 ; 65498 ; 66257 ; 66257 ; 66258 ; 66258 ; 66861 ; 66861 ; 66862 ; 66862 ; 66959 ; 66959 ; 66960 ; 66960 ; 67647 ; 67647 ; 67648 ; 67648 ; 68768 ; 68768 ; 68769 ; 68769 ; 69272 ; 69272 ; 69273 ; 69273 ; 70001 ; 70001 ; 70002 ; 70002 ; 71084 ; 71084 ; 71085 ; 71085 ; 71343 ; 71343 ; 71344 ; 71344 ; 71650 ; 71650 ; 71651 ; 71651 ; 71710 ; 71710 ; 71711 ; 71711 ; 72106 ; 72106 ; 72107 ; 72107 ; 72258 ; 72258 ; 72259 ; 72259 ; 72776 ; 72776 ; 72777 ; 72777 ; 73127 ; 73127 ; 73128 ; 73128 ; 73256 ; 73256 ; 73257 ; 73257 ; 74124 ; 74124 ; 74125 ; 74125 ; 75211 ; 75211 ; 75212 ; 75212 ; 76369 ; 76369 ; 76370 ; 76370 ; 76650 ; 76650 ; 76651 ; 76651 ; 76970 ; 76970 ; 76971 ; 76971 ; 78592 ; 78592 ; 78593 ; 78593 ; 78947 ; 78947 ; 78948 ; 78948 ; 79199 ; 79199 ; 79200 ; 79200 ; 80032 ; 80032 ; 80033 ; 80033 ; 80208 ; 80208 ; 80209 ; 80209 ; 80540 ; 80540 ; 80541 ; 80541 ; 80674 ; 80674 ; 80675 ; 80675 ; 80694 ; 80694 ; 80695 ; 80695 ; 80766 ; 80766 ; 80767 ; 80767 ; 81038 ; 81038 ; 81039 ; 81039 ; 81235 ; 81235 ; 81236 ; 81236 ; 81332 ; 81332 ; 81333 ; 81333 ; 81400 ; 81400 ; 81401 ; 81401 ; 81492 ; 81492 ; 81493 ; 81493 ; 82503 ; 82503 ; 82504 ; 82504 ; 83086 ; 83086 ; 83087 ; 83087 ; 83278 ; 83278 ; 83279 ; 83279 ; 83915 ; 83915 ; 83916 ; 83916 ; 84215 ; 84215 ; 84216 ; 84216 ; 84343 ; 84343 ; 84344 ; 84344 ; 84512 ; 84512 ; 84513 ; 84513 ; 85092 ; 85092 ; 85093 ; 85093 ; 85477 ; 85477 ; 85478 ; 85478 ; 85496 ; 85496 ; 85497 ; 85497 ; 85751 ; 85751 ; 85752 ; 85752 ; 85776 ; 85776 ; 85777 ; 85777 ; 86363 ; 86363 ; 86364 ; 86364 ; 86979 ; 86979 ; 86980 ; 86980 ; 86992 ; 86992 ; 86993 ; 86993 ; 87771 ; 87771 ; 87772 ; 87772 ; 88106 ; 88106 ; 88107 ; 88107 ; 88994 ; 88994 ; 88995 ; 88995 ; 89433 ; 89433 ; 89434 ; 89434 ; 89449 ; 89449 ; 89450 ; 89450 ; 90754 ; 90754 ; 90755 ; 90755 ; 90912 ; 90912 ; 90913 ; 90913 ; 91085 ; 91085 ; 91086 ; 91086 ; 91273 ; 91273 ; 91274 ; 91274 ; 91409 ; 91409 ; 91410 ; 91410 ; 91883 ; 91883 ; 91884 ; 91884 ; 92251 ; 92251 ; 92252 ; 92252 ; 92728 ; 92728 ; 92729 ; 92729 ; 95093 ; 95093 ; 95094 ; 95094 ; 97044 ; 97044 ; 97045 ; 97045 ; 98803 ; 98803 ; 98804 ; 98804 ; 98805)(-70 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70 ; 20 ; 20 ; -70 ; -70)</values>
+    </Stimulus>
+    <PresynapticParameters>
+      <Izikevich>
+        <Parameters>
+          <a unit="per_msec" type="constant">0.02</a>
+          <b unit="dimensionless" type="constant">0.2</b>
+          <c unit="mV" type="constant">-65.0</c>
+          <d unit="mV" type="constant">4.0</d>
+          <Vthresh unit="mV" type="constant">30.0</Vthresh>
+          <isConnected unit="dimensionless" type="constant">0.0</isConnected>
+          <v type="rate">-70.0</v>
+          <U type="rate">-14.0</U>
+          <I_injected type="input">0.0</I_injected>
+        </Parameters>
+        <SimParameters>
+          <StartFromEquilibrium>false</StartFromEquilibrium>
+          <TrimmedResults>false</TrimmedResults>
+          <ShowStepSize>true</ShowStepSize>
+          <WriteToFile>false</WriteToFile>
+          <TypeFile>Simple</TypeFile>
+          <AddDerivTol>false</AddDerivTol>
+          <Method>Rosenbrock</Method>
+        </SimParameters>
+        <AlgorithmParameters>
+          <MaxStepSize>0.1</MaxStepSize>
+          <MinStepSize>5.0E-4</MinStepSize>
+          <Epsylon>1.0E-6</Epsylon>
+          <EpsylonA>1.0E-9</EpsylonA>
+          <AccelerationFactor>1.0</AccelerationFactor>
+        </AlgorithmParameters>
+      </Izikevich>
+      <CaIon>
+        <CaIonSummary model="simplified model">
+          <CaChannels>
+            <NumberNType>6</NumberNType>
+            <NumberLType>3</NumberLType>
+          </CaChannels>
+          <InitialConcentrations>
+            <Presynaptic>1.0E-4</Presynaptic>
+            <Cleft>2.0</Cleft>
+          </InitialConcentrations>
+        </CaIonSummary>
+        <SimplifiedCaDiffusion>
+          <Parameters>
+            <farraday unit="C_permol" type="constant">96480.0</farraday>
+            <Ca_res unit="mM" type="constant">5.0E-5</Ca_res>
+            <tauCa unit="msec" type="constant">0.5</tauCa>
+            <KfactorN unit="dimensionless" type="constant">0.1</KfactorN>
+            <volumePre unit="microm3" type="constant">0.1</volumePre>
+            <KfactorL unit="dimensionless" type="constant">0.1</KfactorL>
+            <KfactornAchR unit="dimensionless" type="constant">1.0</KfactornAchR>
+            <Conc_Ca_Presyn type="rate">5.0E-5</Conc_Ca_Presyn>
+            <Ica_VDCCN type="input">0.0</Ica_VDCCN>
+            <Ica_VDCCL type="input">0.0</Ica_VDCCL>
+            <Ica_nAchR type="input">0.0</Ica_nAchR>
+            <ConcCaFromVDCCN unit="mM" type="assigned">0.0</ConcCaFromVDCCN>
+            <ConcCaFromVDCCL unit="mM" type="assigned">0.0</ConcCaFromVDCCL>
+            <ConcCaFromnAchR unit="mM" type="assigned">0.0</ConcCaFromnAchR>
+          </Parameters>
+          <SimParameters>
+            <StartFromEquilibrium>false</StartFromEquilibrium>
+            <TrimmedResults>true</TrimmedResults>
+            <ShowStepSize>true</ShowStepSize>
+            <WriteToFile>false</WriteToFile>
+            <TypeFile>Simple</TypeFile>
+            <AddDerivTol>false</AddDerivTol>
+            <Method>Runge-Kutta 4th</Method>
+          </SimParameters>
+          <AlgorithmParameters>
+            <MaxStepSize>0.1</MaxStepSize>
+            <MinStepSize>5.0E-4</MinStepSize>
+            <Epsylon>1.0E-10</Epsylon>
+            <EpsylonA>1.0E-13</EpsylonA>
+            <AccelerationFactor>1.0</AccelerationFactor>
+          </AlgorithmParameters>
+        </SimplifiedCaDiffusion>
+        <VDCCNType>
+          <Parameters>
+            <a unit="per_mV_per_msec" type="constant">0.19</a>
+            <b unit="mV" type="constant">19.88</b>
+            <c unit="per_msec" type="constant">0.046</c>
+            <d unit="mV" type="constant">20.73</d>
+            <e unit="per_msec" type="constant">1.6E-4</e>
+            <f unit="mV" type="constant">48.4</f>
+            <g unit="mV" type="constant">39.0</g>
+            <Temperature unit="kelvin" type="constant">300.0</Temperature>
+            <conductMax unit="pS" type="constant">14.0</conductMax>
+            <nb_VDCCNtype unit="dimensionless" type="constant">1.0</nb_VDCCNtype>
+            <m type="rate">0.001581552</m>
+            <h type="rate">0.973556944</h>
+            <V type="input">-70.0</V>
+            <Cai type="input">1.0E-4</Cai>
+            <betam unit="dimensionless" type="assigned">0.0</betam>
+            <alphah unit="dimensionless" type="assigned">0.0</alphah>
+            <betah unit="dimensionless" type="assigned">0.0</betah>
+            <alpham unit="dimensionless" type="assigned">0.0</alpham>
+            <conduct unit="pS" type="assigned">0.0</conduct>
+            <Icanm unit="pA" type="assigned">0.0</Icanm>
+            <temp1 unit="dimensionless" type="assigned">0.0</temp1>
+            <temp2 unit="dimensionless" type="assigned">0.0</temp2>
+            <dvf unit="dimensionless" type="assigned">0.0</dvf>
+            <Cao unit="mM" type="assigned">2.0</Cao>
+            <temp3 unit="dimensionless" type="assigned">-0.0040955278307742</temp3>
+          </Parameters>
+          <SimParameters>
+            <StartFromEquilibrium>false</StartFromEquilibrium>
+            <TrimmedResults>true</TrimmedResults>
+            <ShowStepSize>true</ShowStepSize>
+            <WriteToFile>false</WriteToFile>
+            <TypeFile>Simple</TypeFile>
+            <AddDerivTol>false</AddDerivTol>
+            <Method>Rosenbrock</Method>
+          </SimParameters>
+          <AlgorithmParameters>
+            <MaxStepSize>0.01</MaxStepSize>
+            <MinStepSize>5.0E-4</MinStepSize>
+            <Epsylon>1.0E-12</Epsylon>
+            <EpsylonA>1.0E-15</EpsylonA>
+            <AccelerationFactor>1.0</AccelerationFactor>
+          </AlgorithmParameters>
+        </VDCCNType>
+        <VDCCLType>
+          <Parameters>
+            <a unit="per_mV_per_ms" type="constant">15.69</a>
+            <b unit="mV" type="constant">81.5</b>
+            <c unit="per_ms" type="constant">0.29</c>
+            <d unit="mV" type="constant">10.86</d>
+            <T unit="kelvin" type="constant">300.0</T>
+            <conductMax unit="pS" type="constant">25.0</conductMax>
+            <nb_VDCC_Ltype unit="dimensionless" type="constant">1.0</nb_VDCC_Ltype>
+            <m type="rate">3.42574E-6</m>
+            <V type="input">-70.0</V>
+            <Cai type="input">1.0E-4</Cai>
+            <betam unit="dimensionless" type="assigned">0.0</betam>
+            <alpham unit="dimensionless" type="assigned">0.0</alpham>
+            <conduct unit="pS" type="assigned">0.0</conduct>
+            <Icanm unit="pA" type="assigned">0.0</Icanm>
+            <Ica unit="pA" type="assigned">0.0</Ica>
+            <temp1 unit="dimensionless" type="assigned">0.0</temp1>
+            <temp2 unit="dimensionless" type="assigned">0.0</temp2>
+            <dvf unit="dimensionless" type="assigned">0.0</dvf>
+            <Cao unit="mM" type="assigned">2.0</Cao>
+            <inhibitFact_CB1 unit="dimensionless" type="assigned">0.0</inhibitFact_CB1>
+            <inhibitFact_mGluR unit="dimensionless" type="assigned">0.0</inhibitFact_mGluR>
+            <inhibitFact_H3R unit="dimensionless" type="assigned">0.0</inhibitFact_H3R>
+            <temp3 unit="dimensionless" type="assigned">0.0</temp3>
+          </Parameters>
+          <SimParameters>
+            <StartFromEquilibrium>false</StartFromEquilibrium>
+            <TrimmedResults>true</TrimmedResults>
+            <ShowStepSize>true</ShowStepSize>
+            <WriteToFile>false</WriteToFile>
+            <TypeFile>Simple</TypeFile>
+            <AddDerivTol>false</AddDerivTol>
+            <Method>Rosenbrock</Method>
+          </SimParameters>
+          <AlgorithmParameters>
+            <MaxStepSize>0.001</MaxStepSize>
+            <MinStepSize>5.0E-4</MinStepSize>
+            <Epsylon>1.0E-12</Epsylon>
+            <EpsylonA>1.0E-15</EpsylonA>
+            <AccelerationFactor>1.0</AccelerationFactor>
+          </AlgorithmParameters>
+        </VDCCLType>
+      </CaIon>
+      <NTRelease>
+        <Parameters>
+          <konX unit="per_mM_per_ms" type="constant">500.0</konX>
+          <koffX unit="per_ms" type="constant">100.0</koffX>
+          <konY unit="per_mM_per_ms" type="constant">10.0</konY>
+          <koffY unit="per_ms" type="constant">0.15</koffY>
+          <kk2 unit="per_mM_per_ms" type="constant">1.0</kk2>
+          <kk3 unit="per_ms" type="constant">10.0</kk3>
+          <totNbOfNTperVesicle unit="dimensionless" type="constant">3000.0</totNbOfNTperVesicle>
+          <refractoryPeriodDuration unit="ms" type="constant">5.0</refractoryPeriodDuration>
+          <probabilisticRelease unit="dimensionless" type="constant">1</probabilisticRelease>
+          <numberOfSimulations unit="dimensionless" type="constant">1.0</numberOfSimulations>
+          <seed unit="dimensionless" type="constant">0</seed>
+          <initialReleaseProba unit="dimensionless" type="constant">0.3</initialReleaseProba>
+          <threshold_nAchRCurrent unit="dimensionless" type="constant">2.0E-4</threshold_nAchRCurrent>
+          <increaseProba unit="dimensionless" type="constant">0.4</increaseProba>
+          <XX type="rate">1.0</XX>
+          <XXC type="rate">0.0</XXC>
+          <XX2C type="rate">0.0</XX2C>
+          <XX3C type="rate">0.0</XX3C>
+          <XX4C type="rate">0.0</XX4C>
+          <YY type="rate">1.0</YY>
+          <YYC type="rate">0.00332225905256408</YYC>
+          <vesicleReleased type="rate">0.0</vesicleReleased>
+          <ReleaseRate type="rate">0.0</ReleaseRate>
+          <Ca type="input">5.0E-5</Ca>
+          <nAchR_Current type="input">0.0</nAchR_Current>
+          <CONSERVATION unit="dimensionless" type="assigned">0.0</CONSERVATION>
+          <CONSERVATION2 unit="dimensionless" type="assigned">0.0</CONSERVATION2>
+          <totalNbOfVesicles unit="dimensionless" type="assigned">270.0</totalNbOfVesicles>
+          <vesicleCount unit="dimensionless" type="assigned">0.0</vesicleCount>
+          <NT unit="dimensionless" type="assigned">0.0</NT>
+          <timeOfLastRelease unit="ms" type="assigned">0.0</timeOfLastRelease>
+          <refractoryTime unit="dimensionless" type="assigned">0.0</refractoryTime>
+          <test unit="per_mM_per_ms" type="assigned">0.0</test>
+          <releaseProba unit="dimensionless" type="assigned">0.0</releaseProba>
+        </Parameters>
+        <SimParameters>
+          <StartFromEquilibrium>false</StartFromEquilibrium>
+          <TrimmedResults>true</TrimmedResults>
+          <ShowStepSize>true</ShowStepSize>
+          <WriteToFile>false</WriteToFile>
+          <TypeFile>Simple</TypeFile>
+          <AddDerivTol>false</AddDerivTol>
+          <Method>Runge-Kutta 4th</Method>
+        </SimParameters>
+        <AlgorithmParameters>
+          <MaxStepSize>0.1</MaxStepSize>
+          <MinStepSize>5.0E-4</MinStepSize>
+          <Epsylon>1.0E-6</Epsylon>
+          <EpsylonA>1.0E-9</EpsylonA>
+          <AccelerationFactor>1.0</AccelerationFactor>
+        </AlgorithmParameters>
+      </NTRelease>
+      <NTDiffusion>
+        <Parameters>
+          <k0 unit="dimensionless" type="constant">0.002188</k0>
+          <distance unit="microm" type="constant">0.03</distance>
+          <cleftWidth unit="microm" type="constant">0.02</cleftWidth>
+          <NTdiffCoef unit="micromsquare_per_ms" type="constant">0.4</NTdiffCoef>
+          <PiValue unit="dimensionless" type="constant">3.14159</PiValue>
+          <memorySize unit="ms" type="constant">40.0</memorySize>
+          <position unit="microm" type="constant">0.205</position>
+          <tmp_fake type="rate">0.0</tmp_fake>
+          <NT type="input">0.0</NT>
+          <tempVar1 unit="dimensionless" type="assigned">0.0</tempVar1>
+          <tempVar2 unit="dimensionless" type="assigned">0.0</tempVar2>
+          <NTconc unit="mM" type="assigned">0.0</NTconc>
+          <temp_time unit="ms" type="assigned">0.0</temp_time>
+          <temp_nt unit="substance" type="assigned">0.0</temp_nt>
+        </Parameters>
+        <SimParameters>
+          <StartFromEquilibrium>false</StartFromEquilibrium>
+          <TrimmedResults>true</TrimmedResults>
+          <ShowStepSize>true</ShowStepSize>
+          <WriteToFile>false</WriteToFile>
+          <TypeFile>Simple</TypeFile>
+          <AddDerivTol>false</AddDerivTol>
+          <Method>Forward Euler</Method>
+        </SimParameters>
+        <AlgorithmParameters>
+          <MaxStepSize>10.0</MaxStepSize>
+          <MinStepSize>5.0E-4</MinStepSize>
+          <Epsylon>0.001</Epsylon>
+          <EpsylonA>1.0E-6</EpsylonA>
+          <AccelerationFactor>1.0</AccelerationFactor>
+        </AlgorithmParameters>
+      </NTDiffusion>
+      <nAchR>
+        <Parameters>
+          <kon unit="per_mM_per_msec" type="constant">80.0</kon>
+          <koff unit="per_msec" type="constant">10.0</koff>
+          <koffDens unit="per_msec" type="constant">0.002778</koffDens>
+          <open2 unit="per_msec" type="constant">0.05</open2>
+          <close2 unit="per_msec" type="constant">2.5</close2>
+          <open3 unit="per_msec" type="constant">0.05</open3>
+          <close3 unit="per_msec" type="constant">2.5</close3>
+          <d0 unit="per_msec" type="constant">2.0E-7</d0>
+          <r0 unit="per_msec" type="constant">0.001</r0>
+          <d1 unit="per_msec" type="constant">1.2E-5</d1>
+          <r1 unit="per_msec" type="constant">1.667E-5</r1>
+          <d2 unit="per_msec" type="constant">0.01</d2>
+          <r2 unit="per_msec" type="constant">3.86E-6</r2>
+          <d3 unit="per_msec" type="constant">0.01</d3>
+          <r3 unit="per_msec" type="constant">1.1E-9</r3>
+          <g_nAchR unit="pS" type="constant">80.0</g_nAchR>
+          <Vrev_nAchR unit="mV" type="constant">0.0</Vrev_nAchR>
+          <Pca unit="dimensionless" type="constant">0.1</Pca>
+          <nb_nAchR unit="dimensionless" type="constant">20.0</nb_nAchR>
+          <R type="rate">0.9998</R>
+          <AR type="rate">0.0</AR>
+          <A2R type="rate">0.0</A2R>
+          <A3R type="rate">0.0</A3R>
+          <D type="rate">2.0E-4</D>
+          <AD type="rate">0.0</AD>
+          <A2D type="rate">0.0</A2D>
+          <A3D type="rate">0.0</A3D>
+          <A2Open type="rate">0.0</A2Open>
+          <A3Open type="rate">0.0</A3Open>
+          <Ach type="input">0.0</Ach>
+          <Vm type="input">-60.0</Vm>
+          <sumOpen unit="substance" type="assigned">0.0</sumOpen>
+          <current_nAchR unit="pA" type="assigned">0.0</current_nAchR>
+          <current_nAchR_Ca unit="pA" type="assigned">0.0</current_nAchR_Ca>
+        </Parameters>
+        <SimParameters>
+          <StartFromEquilibrium>false</StartFromEquilibrium>
+          <TrimmedResults>true</TrimmedResults>
+          <ShowStepSize>true</ShowStepSize>
+          <WriteToFile>false</WriteToFile>
+          <TypeFile>Simple</TypeFile>
+          <AddDerivTol>false</AddDerivTol>
+          <Method>Rosenbrock</Method>
+        </SimParameters>
+        <AlgorithmParameters>
+          <MaxStepSize>0.1</MaxStepSize>
+          <MinStepSize>5.0E-4</MinStepSize>
+          <Epsylon>0.001</Epsylon>
+          <EpsylonA>1.0E-6</EpsylonA>
+          <AccelerationFactor>1.0</AccelerationFactor>
+        </AlgorithmParameters>
+      </nAchR>
+    </PresynapticParameters>
+    <PostsynapticParameters>
+      <UseInputFromPreTerm>true</UseInputFromPreTerm>
+      <AMPA-R>
+        <Parameters>
+          <kass_re1 unit="per_mM_per_msec" type="constant">10.0</kass_re1>
+          <kdiss_re1 unit="per_msec" type="constant">7.0</kdiss_re1>
+          <kass_re5 unit="per_mM_per_msec" type="constant">10.0</kass_re5>
+          <kdiss_re5 unit="per_msec" type="constant">4.1E-4</kdiss_re5>
+          <kdiss_re11 unit="per_msec" type="constant">0.001</kdiss_re11>
+          <kdiss_re12 unit="per_msec" type="constant">0.017</kdiss_re12>
+          <kass_re16 unit="per_msec" type="constant">0.55</kass_re16>
+          <kass_re19 unit="per_msec" type="constant">0.2</kass_re19>
+          <kdiss_re19 unit="per_msec" type="constant">0.035</kdiss_re19>
+          <conduc_O2 unit="pS" type="constant">9.0</conduc_O2>
+          <conduc_O3 unit="pS" type="constant">15.0</conduc_O3>
+          <conduc_O4 unit="pS" type="constant">21.0</conduc_O4>
+          <Erev_AMPA unit="mV" type="constant">0.0</Erev_AMPA>
+          <PNa unit="percent" type="constant">50.0</PNa>
+          <PK unit="percent" type="constant">49.5</PK>
+          <PCa unit="percent" type="constant">0.5</PCa>
+          <nbAMPAR unit="dimensionless" type="constant">50</nbAMPAR>
+          <Deact_factor unit="dimensionless" type="constant">1.0</Deact_factor>
+          <Desens_factor unit="dimensionless" type="constant">1.0</Desens_factor>
+          <kdiss_re16_Init unit="per_msec" type="constant">0.3</kdiss_re16_Init>
+          <kass_re11_Init unit="per_msec" type="constant">3.3E-6</kass_re11_Init>
+          <kass_re12_Init unit="per_msec" type="constant">0.42</kass_re12_Init>
+          <R0 type="rate">1.0</R0>
+          <R1 type="rate">0.0</R1>
+          <R2 type="rate">0.0</R2>
+          <R3 type="rate">0.0</R3>
+          <R4 type="rate">0.0</R4>
+          <D0 type="rate">0.0</D0>
+          <D1 type="rate">0.0</D1>
+          <D2 type="rate">0.0</D2>
+          <D3 type="rate">0.0</D3>
+          <D4 type="rate">0.0</D4>
+          <E2 type="rate">0.0</E2>
+          <E3 type="rate">0.0</E3>
+          <E4 type="rate">0.0</E4>
+          <O2 type="rate">0.0</O2>
+          <O3 type="rate">0.0</O3>
+          <O4 type="rate">0.0</O4>
+          <Glu type="input">0.0</Glu>
+          <Vm type="input">-70.0</Vm>
+          <LTP_ampaNbModFactor type="input">1.0</LTP_ampaNbModFactor>
+          <current_AMPA unit="pA" type="assigned">0.0</current_AMPA>
+          <sumOpen unit="dimensionless" type="assigned">0.0</sumOpen>
+          <INa_AMPA unit="pA" type="assigned">0.0</INa_AMPA>
+          <IK_AMPA unit="pA" type="assigned">0.0</IK_AMPA>
+          <ICa_AMPA unit="pA" type="assigned">0.0</ICa_AMPA>
+          <NewNbAMPAR unit="dimensionless" type="assigned">0.0</NewNbAMPAR>
+          <kdiss_re16 unit="per_msec" type="assigned">0.0</kdiss_re16>
+          <kass_re11 unit="per_msec" type="assigned">0.0</kass_re11>
+          <kass_re12 unit="per_msec" type="assigned">0.0</kass_re12>
+        </Parameters>
+        <SimParameters>
+          <StartFromEquilibrium>false</StartFromEquilibrium>
+          <TrimmedResults>true</TrimmedResults>
+          <ShowStepSize>false</ShowStepSize>
+          <WriteToFile>false</WriteToFile>
+          <TypeFile>Simple</TypeFile>
+          <AddDerivTol>false</AddDerivTol>
+          <Method>IMEX</Method>
+        </SimParameters>
+        <AlgorithmParameters>
+          <MaxStepSize>1.0</MaxStepSize>
+          <MinStepSize>5.0E-4</MinStepSize>
+          <Epsylon>1.0E-6</Epsylon>
+          <EpsylonA>1.0E-9</EpsylonA>
+          <AccelerationFactor>1.0</AccelerationFactor>
+        </AlgorithmParameters>
+      </AMPA-R>
+    			<NMDA-R>
+				<Parameters> 
+				
+          <kon type="constant" unit="per_mM_per_msec">31.6</kon>
+          <koff type="constant" unit="per_msec">1.01</koff>
+          <kd1p type="constant" unit="per_msec">0.0851</kd1p>
+          <kd1m type="constant" unit="per_msec">0.0297</kd1m>
+          <kd2p type="constant" unit="per_msec">0.23</kd2p>
+          <kd2m type="constant" unit="per_msec">0.00101</kd2m>
+          <ksp type="constant" unit="per_msec">0.23</ksp>
+          <ksm type="constant" unit="per_msec">0.178</ksm>
+          <kfp type="constant" unit="per_msec">3.14</kfp>
+          <kfm type="constant" unit="pS">0.174</kfm>
+          <g1 type="constant" unit="pS">40.0</g1>
+          <g2 type="constant" unit="pS">247.0</g2>
+          <Vrev type="constant" unit="mV">-0.7</Vrev>
+          <alpha type="constant" unit="dimensionless">0.01</alpha>
+          <nbNMDAR type="constant" unit="dimensionless">40.0</nbNMDAR>
+          <perm_Ca type="constant" unit="dimensionless">0.1</perm_Ca>
+          <R type="rate" unit="">1.0</R>
+          <RA type="rate" unit="">0.0</RA>
+          <RA2 type="rate" unit="">0.0</RA2>
+          <D1 type="rate" unit="">0.0</D1>
+          <D2 type="rate" unit="">0.0</D2>
+          <RA2f type="rate" unit="">0.0</RA2f>
+          <RA2s type="rate" unit="">0.0</RA2s>
+          <RA2fs type="rate" unit="">0.0</RA2fs>
+          <Omg type="assigned" unit="pS">0.0</Omg>
+          <cond type="assigned" unit="pS">0.0</cond>
+          <Iunit type="assigned" unit="pA">0.0</Iunit>
+          <I type="assigned" unit="pA">0.0</I>
+          <Ica type="assigned" unit="pA">0.0</Ica>
+          <Glu type="input" unit="substance">0.0</Glu>
+          <Mg type="input" unit="">1.0</Mg>
+          <Vm type="input" unit="">-74.0</Vm>
+				
+				</Parameters>
+				<SimParameters>
+					<StartFromEquilibrium>true</StartFromEquilibrium>
+					<TrimmedResults>true</TrimmedResults>
+					<ShowStepSize>false</ShowStepSize>
+					<WriteToFile>false</WriteToFile>
+					<TypeFile>Simple</TypeFile>
+					<AddDerivTol>false</AddDerivTol>
+					<Method>IMEX</Method>
+				</SimParameters>
+				<AlgorithmParameters>
+					<MaxStepSize>1.0</MaxStepSize>
+					<MinStepSize>5.0E-4</MinStepSize>
+					<Epsylon>1.0E-8</Epsylon>
+					<EpsylonA>1.0E-11</EpsylonA>
+					<AccelerationFactor>1.0</AccelerationFactor>
+				</AlgorithmParameters>
+			</NMDA-R>
+      <Cytosol>
+        <Parameters>
+          <NaCaXCurrent type="input">0.0</NaCaXCurrent>
+          <AMPACurrent type="input">0.0</AMPACurrent>
+          <NMDACurrent type="input">0.0</NMDACurrent>
+          <nAChRCurrent type="input">0.0</nAChRCurrent>
+          <PMCACurrent type="input">0.0</PMCACurrent>
+          <SlowKCurrent type="input">0.0</SlowKCurrent>
+          <MediumKCurrent type="input">0.0</MediumKCurrent>
+          <AllCurrents unit="pA" type="assigned">0.0</AllCurrents>
+        </Parameters>
+        <SimParameters>
+          <StartFromEquilibrium>false</StartFromEquilibrium>
+          <TrimmedResults>true</TrimmedResults>
+          <ShowStepSize>true</ShowStepSize>
+          <WriteToFile>false</WriteToFile>
+          <TypeFile>Simple</TypeFile>
+          <AddDerivTol>false</AddDerivTol>
+          <Method>Forward Euler</Method>
+        </SimParameters>
+        <AlgorithmParameters>
+          <MaxStepSize>0.1</MaxStepSize>
+          <MinStepSize>5.0E-4</MinStepSize>
+          <Epsylon>0.001</Epsylon>
+          <EpsylonA>1.0E-6</EpsylonA>
+          <AccelerationFactor>1.0</AccelerationFactor>
+        </AlgorithmParameters>
+      </Cytosol>
+      <mGluR>
+        <Parameters>
+          <position unit="nm" type="constant">1000.0</position>
+          <J0_k1 unit="dimensionless" type="constant">0.001</J0_k1>
+          <J0_k2 unit="dimensionless" type="constant">1.0</J0_k2>
+          <J1_k1 unit="dimensionless" type="constant">0.001</J1_k1>
+          <J1_k2 unit="dimensionless" type="constant">1.0</J1_k2>
+          <J2_k1 unit="dimensionless" type="constant">0.001</J2_k1>
+          <J2_k2 unit="dimensionless" type="constant">1.0</J2_k2>
+          <J3_k1 unit="dimensionless" type="constant">0.001</J3_k1>
+          <J3_k2 unit="dimensionless" type="constant">1.0</J3_k2>
+          <J4_k1 unit="dimensionless" type="constant">5000.0</J4_k1>
+          <J4_k2 unit="dimensionless" type="constant">20.0</J4_k2>
+          <J5_k1 unit="dimensionless" type="constant">5000.0</J5_k1>
+          <J5_k2 unit="dimensionless" type="constant">20.0</J5_k2>
+          <J6_k1 unit="dimensionless" type="constant">5000.0</J6_k1>
+          <J6_k2 unit="dimensionless" type="constant">20.0</J6_k2>
+          <J7_k1 unit="dimensionless" type="constant">5000.0</J7_k1>
+          <J7_k2 unit="dimensionless" type="constant">20.0</J7_k2>
+          <J8_k1 unit="dimensionless" type="constant">0.6</J8_k1>
+          <J8_k2 unit="dimensionless" type="constant">0.001</J8_k2>
+          <J9_k1 unit="dimensionless" type="constant">0.6</J9_k1>
+          <J9_k2 unit="dimensionless" type="constant">0.001</J9_k2>
+          <J10_k1 unit="dimensionless" type="constant">0.1</J10_k1>
+          <J10_k2 unit="dimensionless" type="constant">6.5E-5</J10_k2>
+          <J11_k1 unit="dimensionless" type="constant">0.1</J11_k1>
+          <J11_k2 unit="dimensionless" type="constant">6.5E-5</J11_k2>
+          <J12_k1 unit="dimensionless" type="constant">0.003</J12_k1>
+          <J12_k2 unit="dimensionless" type="constant">30.0</J12_k2>
+          <J13_k1 unit="dimensionless" type="constant">30.0</J13_k1>
+          <J13_k2 unit="dimensionless" type="constant">5.0E-6</J13_k2>
+          <J14_k1 unit="dimensionless" type="constant">1.5E-8</J14_k1>
+          <J14_k2 unit="dimensionless" type="constant">0.0</J14_k2>
+          <J15_k1 unit="dimensionless" type="constant">0.003</J15_k1>
+          <J15_k2 unit="dimensionless" type="constant">30.0</J15_k2>
+          <J16_k1 unit="dimensionless" type="constant">30.0</J16_k1>
+          <J16_k2 unit="dimensionless" type="constant">5.0E-6</J16_k2>
+          <J17_k1 unit="dimensionless" type="constant">150.0</J17_k1>
+          <J17_k2 unit="dimensionless" type="constant">0.0</J17_k2>
+          <J18_k1 unit="dimensionless" type="constant">1.0E-6</J18_k1>
+          <J18_k2 unit="dimensionless" type="constant">0.0</J18_k2>
+          <J19_k1 unit="dimensionless" type="constant">1000.0</J19_k1>
+          <J19_k2 unit="dimensionless" type="constant">0.0</J19_k2>
+          <J20_Vmax unit="dimensionless" type="constant">0.0</J20_Vmax>
+          <J20_Km1 unit="dimensionless" type="constant">0.1</J20_Km1>
+          <J21_Vmax unit="dimensionless" type="constant">0.0</J21_Vmax>
+          <J21_Km1 unit="dimensionless" type="constant">0.1</J21_Km1>
+          <J76_k1 unit="dimensionless" type="constant">8.99</J76_k1>
+          <J76_k2 unit="dimensionless" type="constant">0.005</J76_k2>
+          <J77_k1 unit="dimensionless" type="constant">20.0</J77_k1>
+          <J77_k2 unit="dimensionless" type="constant">0.01</J77_k2>
+          <J78_k1 unit="dimensionless" type="constant">40.0</J78_k1>
+          <J78_k2 unit="dimensionless" type="constant">0.015</J78_k2>
+          <J79_k1 unit="dimensionless" type="constant">60.0</J79_k1>
+          <J79_k2 unit="dimensionless" type="constant">0.02</J79_k2>
+          <J80_k1 unit="dimensionless" type="constant">12000.0</J80_k1>
+          <J80_k2 unit="dimensionless" type="constant">25.0</J80_k2>
+          <J81_k1 unit="dimensionless" type="constant">12000.0</J81_k1>
+          <J81_k2 unit="dimensionless" type="constant">5.0</J81_k2>
+          <J87_k1 unit="dimensionless" type="constant">16.0</J87_k1>
+          <J87_k2 unit="dimensionless" type="constant">0.405</J87_k2>
+          <J88_k1 unit="dimensionless" type="constant">16.0</J88_k1>
+          <J88_k2 unit="dimensionless" type="constant">0.405</J88_k2>
+          <J89_k1 unit="dimensionless" type="constant">1.5</J89_k1>
+          <J89_k2 unit="dimensionless" type="constant">0.0024</J89_k2>
+          <J90_k1 unit="dimensionless" type="constant">1.5</J90_k1>
+          <J90_k2 unit="dimensionless" type="constant">0.0024</J90_k2>
+          <J91_k1 unit="dimensionless" type="constant">100.0</J91_k1>
+          <J91_k2 unit="dimensionless" type="constant">0.001</J91_k2>
+          <J92_k1 unit="dimensionless" type="constant">100.0</J92_k1>
+          <J92_k2 unit="dimensionless" type="constant">0.001</J92_k2>
+          <J93_k1 unit="dimensionless" type="constant">1.8974</J93_k1>
+          <J93_k2 unit="dimensionless" type="constant">0.001</J93_k2>
+          <J94_k1 unit="dimensionless" type="constant">1.8974</J94_k1>
+          <J94_k2 unit="dimensionless" type="constant">0.001</J94_k2>
+          <J95_k1 unit="dimensionless" type="constant">0.24</J95_k1>
+          <J95_k2 unit="dimensionless" type="constant">0.001</J95_k2>
+          <J96_k1 unit="dimensionless" type="constant">2.238</J96_k1>
+          <J96_k2 unit="dimensionless" type="constant">0.001</J96_k2>
+          <J97_k1 unit="dimensionless" type="constant">600.0</J97_k1>
+          <J97_k2 unit="dimensionless" type="constant">0.001</J97_k2>
+          <J163_k1 unit="dimensionless" type="constant">300.0</J163_k1>
+          <J163_k2 unit="dimensionless" type="constant">0.1</J163_k2>
+          <J164_k1 unit="dimensionless" type="constant">900.0</J164_k1>
+          <J164_k2 unit="dimensionless" type="constant">0.03</J164_k2>
+          <J165_k1 unit="dimensionless" type="constant">1000.0</J165_k1>
+          <J165_k2 unit="dimensionless" type="constant">6.0E-7</J165_k2>
+          <J166_k1 unit="dimensionless" type="constant">1200.0</J166_k1>
+          <J166_k2 unit="dimensionless" type="constant">6.0E-7</J166_k2>
+          <J167_k1 unit="dimensionless" type="constant">1000.0</J167_k1>
+          <J167_k2 unit="dimensionless" type="constant">6.0E-7</J167_k2>
+          <J168_k1 unit="dimensionless" type="constant">3.0E-5</J168_k1>
+          <J168_k2 unit="dimensionless" type="constant">0.0</J168_k2>
+          <J169_k1 unit="dimensionless" type="constant">250.6</J169_k1>
+          <J169_k2 unit="dimensionless" type="constant">0.0</J169_k2>
+          <J170_k1 unit="dimensionless" type="constant">1.0</J170_k1>
+          <J170_k2 unit="dimensionless" type="constant">0.017</J170_k2>
+          <J171_k1 unit="dimensionless" type="constant">1.0</J171_k1>
+          <J171_k2 unit="dimensionless" type="constant">0.017</J171_k2>
+          <J172_k1 unit="dimensionless" type="constant">0.003</J172_k1>
+          <J172_k2 unit="dimensionless" type="constant">0.0</J172_k2>
+          <J173_k1 unit="dimensionless" type="constant">0.003</J173_k1>
+          <J173_k2 unit="dimensionless" type="constant">0.0</J173_k2>
+          <J175_k1 unit="dimensionless" type="constant">33.332</J175_k1>
+          <J175_k2 unit="dimensionless" type="constant">0.01</J175_k2>
+          <J176_k1 unit="dimensionless" type="constant">33.332</J176_k1>
+          <J176_k2 unit="dimensionless" type="constant">0.01</J176_k2>
+          <J177_k1 unit="dimensionless" type="constant">100.0</J177_k1>
+          <J177_k2 unit="dimensionless" type="constant">0.08</J177_k2>
+          <J178_k1 unit="dimensionless" type="constant">0.02</J178_k1>
+          <J178_k2 unit="dimensionless" type="constant">0.0</J178_k2>
+          <J179_k1 unit="dimensionless" type="constant">10.0</J179_k1>
+          <J179_k2 unit="dimensionless" type="constant">0.072</J179_k2>
+          <J180_k1 unit="dimensionless" type="constant">0.018</J180_k1>
+          <J180_k2 unit="dimensionless" type="constant">0.0</J180_k2>
+          <J181_k1 unit="dimensionless" type="constant">10.5</J181_k1>
+          <J181_k2 unit="dimensionless" type="constant">0.0</J181_k2>
+          <J182_k1 unit="dimensionless" type="constant">130.95</J182_k1>
+          <J182_k2 unit="dimensionless" type="constant">1.0</J182_k2>
+          <J183_k1 unit="dimensionless" type="constant">130.95</J183_k1>
+          <J183_k2 unit="dimensionless" type="constant">1.0</J183_k2>
+          <J184_k1 unit="dimensionless" type="constant">0.25</J184_k1>
+          <J184_k2 unit="dimensionless" type="constant">0.0</J184_k2>
+          <J185_k1 unit="dimensionless" type="constant">0.25</J185_k1>
+          <J185_k2 unit="dimensionless" type="constant">0.0</J185_k2>
+          <J186_k1 unit="dimensionless" type="constant">1.5E-4</J186_k1>
+          <J186_k2 unit="dimensionless" type="constant">0.0</J186_k2>
+          <J187_k1 unit="dimensionless" type="constant">25000.0</J187_k1>
+          <J187_k2 unit="dimensionless" type="constant">2.0</J187_k2>
+          <J188_k1 unit="dimensionless" type="constant">0.5</J188_k1>
+          <J188_k2 unit="dimensionless" type="constant">0.0</J188_k2>
+          <J189_k1 unit="dimensionless" type="constant">93.827</J189_k1>
+          <J189_k2 unit="dimensionless" type="constant">4.0</J189_k2>
+          <J190_k1 unit="dimensionless" type="constant">93.827</J190_k1>
+          <J190_k2 unit="dimensionless" type="constant">4.0</J190_k2>
+          <J191_k1 unit="dimensionless" type="constant">1.0</J191_k1>
+          <J191_k2 unit="dimensionless" type="constant">0.0</J191_k2>
+          <J192_k1 unit="dimensionless" type="constant">1.0</J192_k1>
+          <J192_k2 unit="dimensionless" type="constant">0.0</J192_k2>
+          <J193_k1 unit="dimensionless" type="constant">1.0E-5</J193_k1>
+          <J193_k2 unit="dimensionless" type="constant">0.0</J193_k2>
+          <J174_k1 unit="dimensionless" type="constant">0.003</J174_k1>
+          <J174_k2 unit="dimensionless" type="constant">0.0</J174_k2>
+          <R type="rate">3.89266904847504E-4</R>
+          <Ra type="rate">3.89319081649848E-7</Ra>
+          <LR type="rate">1.5836159708699E-33</LR>
+          <LRa type="rate">-6.09975847613016E-32</LRa>
+          <R_Gaq_GDP_bg type="rate">0.00406139263968745</R_Gaq_GDP_bg>
+          <Ra_Gaq_GDP_bg type="rate">4.0609927129471E-6</Ra_Gaq_GDP_bg>
+          <LR_Gaq_GDP_bg type="rate">6.75598591019411E-37</LR_Gaq_GDP_bg>
+          <LRa_Gaq_GDP_bg type="rate">2.42654539845649E-36</LRa_Gaq_GDP_bg>
+          <Gaq_GDP_bg type="rate">0.0173894166168917</Gaq_GDP_bg>
+          <Ra_Gaq0_bg type="rate">3.02095086399659E-9</Ra_Gaq0_bg>
+          <LRa_Gaq0_bg type="rate">7.34343136413473E-39</LRa_Gaq0_bg>
+          <Ra_Gaq_GTP_bg type="rate">0.00354488711914096</Ra_Gaq_GTP_bg>
+          <LRa_Gaq_GTP_bg type="rate">-1.93232758048374E-32</LRa_Gaq_GTP_bg>
+          <GaqGTP type="rate">1.23461735927345E-12</GaqGTP>
+          <Gbg type="rate">2.39599480303788E-7</Gbg>
+          <GaqGDP type="rate">2.21874391407848E-7</GaqGDP>
+          <IP3 type="rate">1.07531278043228E-4</IP3>
+          <DAG type="rate">0.201350856777011</DAG>
+          <Ca type="rate">4.90691666502258E-5</Ca>
+          <IP3R type="rate">8.65143190764843E-4</IP3R>
+          <IP3R_Ca type="rate">7.6328454580141E-5</IP3R_Ca>
+          <IP3R_2Ca type="rate">7.49074795061143E-6</IP3R_2Ca>
+          <IP3R_3Ca type="rate">9.80172721883503E-7</IP3R_3Ca>
+          <IP3R_4Ca type="rate">1.44288776605156E-7</IP3R_4Ca>
+          <IP3R_IP3 type="rate">4.46543773819571E-5</IP3R_IP3>
+          <IP3R_Open type="rate">5.25876737578409E-6</IP3R_Open>
+          <CaM type="rate">9.98061332488321E-4</CaM>
+          <CaM_Ca type="rate">1.93477680233643E-6</CaM_Ca>
+          <CaM_2Ca type="rate">3.75063250064924E-9</CaM_2Ca>
+          <CaM_3Ca type="rate">1.15025191744954E-10</CaM_3Ca>
+          <CaM_4Ca type="rate">3.52760467136455E-12</CaM_4Ca>
+          <CaN type="rate">3.08307084668497E-5</CaN>
+          <CaN_Ca type="rate">1.51283697228116E-4</CaN_Ca>
+          <CaN_2Ca type="rate">7.42336429635558E-4</CaN_2Ca>
+          <CaN_3Ca type="rate">6.91143378885222E-5</CaN_3Ca>
+          <CaN_4Ca type="rate">6.43480526513203E-6</CaN_4Ca>
+          <CaN_4Ca_CaM_2Ca type="rate">5.79229321482362E-12</CaN_4Ca_CaM_2Ca>
+          <CaN_4Ca_CaM_3Ca type="rate">1.65648565926826E-12</CaN_4Ca_CaM_3Ca>
+          <CaN_4Ca_CaM_4Ca type="rate">1.36196401667878E-11</CaN_4Ca_CaM_4Ca>
+          <PLC2_PIP2 type="rate">0.0365906334982299</PLC2_PIP2>
+          <PLC2_Ca_PIP2 type="rate">0.00538641608061752</PLC2_Ca_PIP2>
+          <PLC2_Ca type="rate">2.29326787106452E-5</PLC2_Ca>
+          <PLC2_Gq_PIP2 type="rate">1.12386350156032E-9</PLC2_Gq_PIP2>
+          <PLC2_Ca_Gq_PIP2 type="rate">2.60976147069917E-10</PLC2_Ca_Gq_PIP2>
+          <PLC2_Ca_Gq type="rate">1.63390146299747E-8</PLC2_Ca_Gq>
+          <IP3K type="rate">2.51427923206463E-4</IP3K>
+          <IP3K_Ca type="rate">4.11228805229033E-5</IP3K_Ca>
+          <IP3K_2Ca type="rate">6.72594670251113E-6</IP3K_2Ca>
+          <IP3K_2Ca_IP3 type="rate">7.23249431820098E-7</IP3K_2Ca_IP3>
+          <IP4 type="rate">0.0134944771563497</IP4>
+          <IP5P type="rate">9.88193150800043E-4</IP5P>
+          <IP5P_IP3 type="rate">1.18068487472253E-5</IP5P_IP3>
+          <IP2 type="rate">0.197471161846005</IP2>
+          <CaER type="rate">0.125246230104744</CaER>
+          <Ca_Cleft type="rate">2.06702116280734</Ca_Cleft>
+          <SERCA type="rate">0.0198971929761697</SERCA>
+          <SERCA_Ca type="rate">1.02281239880892E-4</SERCA_Ca>
+          <SERCA_2Ca type="rate">5.2577527097615E-7</SERCA_2Ca>
+          <PMCA type="rate">8.04995443752187E-5</PMCA>
+          <PMCA_Ca type="rate">3.95004555784861E-5</PMCA_Ca>
+          <NaCa_Exch type="rate">9.99079197786183E-4</NaCa_Exch>
+          <NaCa_Exch_Ca type="rate">9.19954662777323E-7</NaCa_Exch_Ca>
+          <NaCa_Exch_2Ca type="rate">8.47096589922676E-10</NaCa_Exch_2Ca>
+          <CaPSD type="rate">0.0</CaPSD>
+          <GDP type="input">0.13</GDP>
+          <GTP type="input">0.2</GTP>
+          <L type="input">0.0</L>
+          <RGS type="input">0.0</RGS>
+          <PIP2 type="input">4.0</PIP2>
+          <iCaAMPAR type="input">0.0</iCaAMPAR>
+          <iCaNMDAR type="input">0.0</iCaNMDAR>
+          <compartment unit="volume" type="assigned">1.0</compartment>
+        </Parameters>
+        <SimParameters>
+          <StartFromEquilibrium>false</StartFromEquilibrium>
+          <TrimmedResults>true</TrimmedResults>
+          <ShowStepSize>true</ShowStepSize>
+          <WriteToFile>false</WriteToFile>
+          <TypeFile>Simple</TypeFile>
+          <AddDerivTol>false</AddDerivTol>
+          <Method>Rosenbrock</Method>
+        </SimParameters>
+        <AlgorithmParameters>
+          <MaxStepSize>1.0</MaxStepSize>
+          <MinStepSize>5.0E-4</MinStepSize>
+          <Epsylon>1.0E-9</Epsylon>
+          <EpsylonA>1.0E-11</EpsylonA>
+          <AccelerationFactor>1.0</AccelerationFactor>
+        </AlgorithmParameters>
+      </mGluR>
+      <LTP>
+        <Parameters>
+          <p1 unit="dimensionless" type="constant">1.0</p1>
+          <p2 unit="dimensionless" type="constant">0.28</p2>
+          <p3 unit="dimensionless" type="constant">3.0</p3>
+          <a0 unit="dimensionless" type="constant">0.33333</a0>
+          <a1 unit="dimensionless" type="constant">0.18</a1>
+          <a2 unit="dimensionless" type="constant">0.54</a2>
+          <b1 unit="dimensionless" type="constant">13.0</b1>
+          <b2 unit="dimensionless" type="constant">5.0</b2>
+          <factor unit="dimensionless" type="constant">1.0E-5</factor>
+          <factor2 unit="dimensionless" type="constant">5.0E-6</factor2>
+          <p4 unit="substance" type="constant">1.0E-5</p4>
+          <Rm type="rate">0.5</Rm>
+          <Rpsd type="rate">0.5</Rpsd>
+          <fakeRate type="rate">0.0</fakeRate>
+          <weight type="rate">1.0</weight>
+          <Ca type="input">6.0E-5</Ca>
+          <tmp1 unit="dimensionless" type="assigned">0.0</tmp1>
+          <tmp2 unit="dimensionless" type="assigned">0.0</tmp2>
+          <sig1 unit="dimensionless" type="assigned">0.0</sig1>
+          <sig2 unit="dimensionless" type="assigned">0.0</sig2>
+          <omega unit="dimensionless" type="assigned">0.0</omega>
+          <j0_k1 unit="dimensionless" type="assigned">0.0</j0_k1>
+          <j0_k2 unit="dimensionless" type="assigned">0.0</j0_k2>
+          <ampaNbModFactor unit="dimensionless" type="assigned">1.0</ampaNbModFactor>
+          <eta unit="dimensionless" type="assigned">0.0</eta>
+        </Parameters>
+        <SimParameters>
+          <StartFromEquilibrium>false</StartFromEquilibrium>
+          <TrimmedResults>true</TrimmedResults>
+          <ShowStepSize>true</ShowStepSize>
+          <WriteToFile>false</WriteToFile>
+          <TypeFile>Simple</TypeFile>
+          <AddDerivTol>false</AddDerivTol>
+          <Method>Rosenbrock</Method>
+        </SimParameters>
+        <AlgorithmParameters>
+          <MaxStepSize>1.0</MaxStepSize>
+          <MinStepSize>5.0E-4</MinStepSize>
+          <Epsylon>1.0E-5</Epsylon>
+          <EpsylonA>1.0E-7</EpsylonA>
+          <AccelerationFactor>1.0</AccelerationFactor>
+        </AlgorithmParameters>
+      </LTP>
+      <InitialIonicConcentrations>
+        <CytosolIIC>
+          <CytCaConcentration>5.0E-5</CytCaConcentration>
+          <CytNaConcentration>10.0</CytNaConcentration>
+        </CytosolIIC>
+        <Extracellular>
+          <ECCaConcentration>2600.0</ECCaConcentration>
+          <ECNaConcentration>150.0</ECNaConcentration>
+          <ECGlyConcentration>see GlyT model</ECGlyConcentration>
+          <ECMgConcentration>see NMDA model</ECMgConcentration>
+          <ECClConcentration>170.0</ECClConcentration>
+        </Extracellular>
+        <EndoplasmicReticulum>
+          <ERCaConcentration>300.0</ERCaConcentration>
+        </EndoplasmicReticulum>
+      </InitialIonicConcentrations>
+    </PostsynapticParameters>
+    <ExtraSynapticElements>
+      <GlutamateTransporter>
+        <Parameters>
+          <k1p unit="per_mM_per_ms" type="constant">100.0</k1p>
+          <k1m unit="per_ms" type="constant">2000.0</k1m>
+          <k2p unit="per_mM_per_ms" type="constant">300.0</k2p>
+          <k2m unit="per_ms" type="constant">2000.0</k2m>
+          <k3p unit="per_mM_per_ms" type="constant">100.0</k3p>
+          <k3m unit="per_ms" type="constant">2000.0</k3m>
+          <k4p unit="per_mM_per_ms" type="constant">100.0</k4p>
+          <k4m unit="per_ms" type="constant">30000.0</k4m>
+          <k5p unit="per_ms" type="constant">1.6</k5p>
+          <k5m unit="per_ms" type="constant">7.0</k5m>
+          <k6p unit="per_mM_per_ms" type="constant">18.0</k6p>
+          <k6m unit="per_ms" type="constant">0.18</k6m>
+          <k7p unit="per_mM_per_ms" type="constant">100000.0</k7p>
+          <k7m unit="per_ms" type="constant">1.5</k7m>
+          <k8p unit="per_ms" type="constant">5.0</k8p>
+          <k8m unit="per_ms" type="constant">2.5</k8m>
+          <k9p unit="per_ms" type="constant">0.23</k9p>
+          <k9m unit="per_ms" type="constant">0.2</k9m>
+          <k10p unit="per_mM_per_ms" type="constant">100.0</k10p>
+          <k10m unit="per_ms" type="constant">6000.0</k10m>
+          <k11p unit="per_mM_per_ms" type="constant">0.1</k11p>
+          <k11m unit="per_ms" type="constant">0.0165</k11m>
+          <k12p unit="per_mM_per_ms" type="constant">100000.0</k12p>
+          <k12m unit="per_ms" type="constant">100.0</k12m>
+          <k13p unit="per_mM_per_ms" type="constant">100.0</k13p>
+          <k13m unit="per_ms" type="constant">2000.0</k13m>
+          <k14p unit="per_mM_per_ms" type="constant">300.0</k14p>
+          <k14m unit="per_ms" type="constant">2000.0</k14m>
+          <k15p unit="per_mM_per_ms" type="constant">100.0</k15p>
+          <k15m unit="per_ms" type="constant">500.0</k15m>
+          <k16p unit="per_ms" type="constant">2.0</k16p>
+          <k16m unit="per_ms" type="constant">0.238</k16m>
+          <Vm unit="mV" type="constant">-70.0</Vm>
+          <GTA unit="siemens" type="constant">0.384</GTA>
+          <N_channels unit="dimensionless" type="constant">1.0</N_channels>
+          <Transporter_Conc unit="mM" type="constant">0.2</Transporter_Conc>
+          <GN3To type="rate">0.0</GN3To>
+          <HGN2Ti type="rate">0.0</HGN2Ti>
+          <HGN3Ti type="rate">0.0</HGN3Ti>
+          <HGN3To type="rate">0.0</HGN3To>
+          <HGN3ToO type="rate">0.0</HGN3ToO>
+          <HN2Ti type="rate">0.0</HN2Ti>
+          <KTi type="rate">0.0</KTi>
+          <KTo type="rate">0.0</KTo>
+          <N2Ti type="rate">0.0</N2Ti>
+          <N2To type="rate">0.0</N2To>
+          <N3To type="rate">0.0</N3To>
+          <N3ToO type="rate">0.0</N3ToO>
+          <NTi type="rate">0.0</NTi>
+          <NTo type="rate">0.0</NTo>
+          <Ti type="rate">1.0</Ti>
+          <To type="rate">0.0</To>
+          <Glui type="input">0.0</Glui>
+          <Gluo type="input">0.0</Gluo>
+          <Hi type="input">5.0E-5</Hi>
+          <Ho type="input">4.0E-5</Ho>
+          <Ki type="input">140.0</Ki>
+          <Ko type="input">2.5</Ko>
+          <Nai type="input">10.0</Nai>
+          <Nao type="input">146.0</Nao>
+          <Po unit="dimensionless" type="assigned">0.0</Po>
+          <I_anion unit="pA" type="assigned">0.0</I_anion>
+          <Glui_dot unit="mM_per_ms" type="assigned">0.0</Glui_dot>
+          <Glu_clearance unit="mM" type="assigned">0.0</Glu_clearance>
+        </Parameters>
+        <SimParameters>
+          <StartFromEquilibrium>true</StartFromEquilibrium>
+          <TrimmedResults>true</TrimmedResults>
+          <ShowStepSize>true</ShowStepSize>
+          <WriteToFile>false</WriteToFile>
+          <TypeFile>Simple</TypeFile>
+          <AddDerivTol>false</AddDerivTol>
+          <Method>IMEX</Method>
+        </SimParameters>
+        <AlgorithmParameters>
+          <MaxStepSize>0.1</MaxStepSize>
+          <MinStepSize>5.0E-4</MinStepSize>
+          <Epsylon>1.0E-8</Epsylon>
+          <EpsylonA>1.0E-11</EpsylonA>
+          <AccelerationFactor>1.0</AccelerationFactor>
+        </AlgorithmParameters>
+      </GlutamateTransporter>
+      <Astrocyte>
+        <Parameters>
+          <c0 unit="uM" type="constant">2.0</c0>
+          <c1 unit="" type="constant">0.19</c1>
+          <d1 unit="uM" type="constant">0.13</d1>
+          <d5 unit="uM" type="constant">0.08234</d5>
+          <a2 unit="per_uM_per_sec" type="constant">0.2</a2>
+          <d2 unit="uM" type="constant">1.049</d2>
+          <d3 unit="uM" type="constant">0.9434</d3>
+          <v1 unit="per_sec" type="constant">6.0</v1>
+          <k3_conc unit="uM" type="constant">0.1</k3_conc>
+          <v2 unit="per_sec" type="constant">0.11</v2>
+          <v3 unit="uM_per_sec" type="constant">0.9</v3>
+          <tauIP3inv unit="per_sec" type="constant">0.14</tauIP3inv>
+          <IP3star unit="uM" type="constant">0.16</IP3star>
+          <vIP3 unit="uM_per_sec" type="constant">0.13</vIP3>
+          <alpha unit="" type="constant">0.8</alpha>
+          <kIP3 unit="uM" type="constant">1.1</kIP3>
+          <v unit="uM_per_sec" type="constant">0.062</v>
+          <nA unit="" type="constant">0.4</nA>
+          <k_conc unit="uM" type="constant">0.785</k_conc>
+          <gamma1 unit="per_msec" type="constant">2.08E-5</gamma1>
+          <alpha1 unit="per_msec" type="constant">0.04048</alpha1>
+          <astrothreshold unit="uM" type="constant">0.1964</astrothreshold>
+          <noisevar unit="dimensionless" type="constant">-0.008</noisevar>
+          <q type="rate">0.5</q>
+          <CaAstro type="rate">0.3</CaAstro>
+          <IP3 type="rate">0.16</IP3>
+          <CamGluR type="rate">0.001</CamGluR>
+          <glu type="input">0.0</glu>
+          <CaER unit="uM" type="assigned">0.1</CaER>
+          <minfA unit="dimensionless" type="assigned">0.0</minfA>
+          <ninfA unit="dimensionless" type="assigned">0.1</ninfA>
+          <alphaq unit="dimensionless" type="assigned">0.0</alphaq>
+          <betaq unit="dimensionless" type="assigned">0.0</betaq>
+          <Jchannel unit="uM_per_sec" type="assigned">0.0</Jchannel>
+          <Jpump unit="uM_per_sec" type="assigned">0.0</Jpump>
+          <Jleak unit="uM_per_sec" type="assigned">0.0</Jleak>
+          <s_CaAstro unit="" type="assigned">0.0</s_CaAstro>
+          <s_IP3 unit="" type="assigned">0.0</s_IP3>
+          <s_theta1 unit="" type="assigned">0.0</s_theta1>
+          <s_q unit="" type="assigned">0.0</s_q>
+          <s_alphaq unit="" type="assigned">0.0</s_alphaq>
+          <s_betaq unit="" type="assigned">0.0</s_betaq>
+          <s_CamGluR unit="" type="assigned">0.0</s_CamGluR>
+          <theta1 unit="" type="assigned">0.0</theta1>
+          <thetaCaAstro unit="mS" type="assigned">0.0</thetaCaAstro>
+        </Parameters>
+        <SimParameters>
+          <StartFromEquilibrium>true</StartFromEquilibrium>
+          <TrimmedResults>false</TrimmedResults>
+          <ShowStepSize>true</ShowStepSize>
+          <WriteToFile>false</WriteToFile>
+          <TypeFile>Simple</TypeFile>
+          <AddDerivTol>false</AddDerivTol>
+          <Method>RK Fehlberg</Method>
+        </SimParameters>
+        <AlgorithmParameters>
+          <MaxStepSize>0.1</MaxStepSize>
+          <MinStepSize>5.0E-4</MinStepSize>
+          <Epsylon>1.0E-4</Epsylon>
+          <EpsylonA>1.0E-9</EpsylonA>
+          <AccelerationFactor>0.1</AccelerationFactor>
+        </AlgorithmParameters>
+      </Astrocyte>
+      <AChE>
+        <Parameters>
+          <ksp unit="per_mM_per_msec" type="constant">1000.0</ksp>
+          <ksm unit="per_msec" type="constant">46.0</ksm>
+          <kssp unit="per_mM_per_msec" type="constant">1000.0</kssp>
+          <kssm unit="per_msec" type="constant">15000.0</kssm>
+          <kcat unit="per_msec" type="constant">2.33</kcat>
+          <bb unit="per_msec" type="constant">0.23</bb>
+          <kp unit="per_mM_per_msec" type="constant">1.0</kp>
+          <km unit="per_msec" type="constant">0.1</km>
+          <NT_basal unit="mM" type="constant">5.0E-4</NT_basal>
+          <NT_peak unit="mM" type="constant">0.002</NT_peak>
+          <IC50_Aricept unit="mM" type="constant">6.7E-6</IC50_Aricept>
+          <IC50_Exelon unit="mM" type="constant">4.3E-6</IC50_Exelon>
+          <IC50_Galantamine unit="mM" type="constant">0.0012</IC50_Galantamine>
+          <AntagonisteType unit="dimensionless" type="constant">3.0</AntagonisteType>
+          <kon_Aricept unit="per_mM_per_msec" type="constant">230000.0</kon_Aricept>
+          <kon_Exelon unit="per_mM_per_msec" type="constant">340000.0</kon_Exelon>
+          <kon_Galantamine unit="per_mM_per_msec" type="constant">1000000.0</kon_Galantamine>
+          <TRAIN_start unit="msec" type="constant">10.0</TRAIN_start>
+          <TRAIN_stop unit="msec" type="constant">100.0</TRAIN_stop>
+          <PULSE_interval unit="msec" type="constant">10.0</PULSE_interval>
+          <PULSE_duration unit="msec" type="constant">1.0</PULSE_duration>
+          <E type="rate">1.0E-4</E>
+          <S type="rate">0.0</S>
+          <ES type="rate">0.0</ES>
+          <P type="rate">0.0</P>
+          <SE type="rate">0.0</SE>
+          <SES type="rate">0.0</SES>
+          <SP1 type="rate">0.0</SP1>
+          <SP2 type="rate">0.0</SP2>
+          <SE_Ant type="rate">0.0</SE_Ant>
+          <E_Ant type="rate">0.0</E_Ant>
+          <ES_Ant type="rate">0.0</ES_Ant>
+          <SES_Ant type="rate">0.0</SES_Ant>
+          <FAKE type="input">0.0</FAKE>
+          <Ant type="input">0.0</Ant>
+          <Kd_Subs unit="mM" type="assigned">0.0</Kd_Subs>
+          <Ki_Ant unit="mM" type="assigned">0.0</Ki_Ant>
+          <koff_G unit="per_msec" type="assigned">0.0</koff_G>
+          <NT_driver unit="mM" type="assigned">0.0</NT_driver>
+          <konAnt unit="per_mM_per_msec" type="assigned">0.0</konAnt>
+          <IC50_Ant unit="mM" type="assigned">0.0</IC50_Ant>
+          <k6p unit="per_mM_per_msec" type="assigned">0.0</k6p>
+          <k7p unit="per_mM_per_msec" type="assigned">0.0</k7p>
+          <k8p unit="per_mM_per_msec" type="assigned">0.0</k8p>
+          <k9p unit="per_mM_per_msec" type="assigned">0.0</k9p>
+          <k6m unit="per_msec" type="assigned">0.0</k6m>
+          <k7m unit="per_msec" type="assigned">0.0</k7m>
+          <k8m unit="per_msec" type="assigned">0.0</k8m>
+          <k9m unit="per_msec" type="assigned">0.0</k9m>
+          <t_PULSE_up unit="dimensionless" type="assigned">0.0</t_PULSE_up>
+          <t_PULSE_down unit="dimensionless" type="assigned">0.0</t_PULSE_down>
+        </Parameters>
+        <SimParameters>
+          <StartFromEquilibrium>false</StartFromEquilibrium>
+          <TrimmedResults>true</TrimmedResults>
+          <ShowStepSize>true</ShowStepSize>
+          <WriteToFile>false</WriteToFile>
+          <TypeFile>Simple</TypeFile>
+          <AddDerivTol>false</AddDerivTol>
+          <Method>Rosenbrock</Method>
+        </SimParameters>
+        <AlgorithmParameters>
+          <MaxStepSize>0.1</MaxStepSize>
+          <MinStepSize>5.0E-4</MinStepSize>
+          <Epsylon>1.0E-6</Epsylon>
+          <EpsylonA>1.0E-8</EpsylonA>
+          <AccelerationFactor>1.0</AccelerationFactor>
+        </AlgorithmParameters>
+      </AChE>
+    </ExtraSynapticElements>
+    <SynapticGeometry>
+      <CleftWidth unit="nm">20</CleftWidth>
+      <NumberPreSynapticElements>
+        <NTypeCaChannels>6</NTypeCaChannels>
+        <LTypeCaChannels>3</LTypeCaChannels>
+        <CaPumps>2</CaPumps>
+        <NAChReceptors>1</NAChReceptors>
+      </NumberPreSynapticElements>
+      <NumberPostSynapticElements>
+        <AMPAReceptors>1</AMPAReceptors>
+        <NMDAReceptors>1</NMDAReceptors>
+      </NumberPostSynapticElements>
+      <ExtraSynapticElements>
+        <IsAstrocyte>false</IsAstrocyte>
+        <GluTransporter>false</GluTransporter>
+        <mGluRGeo>true</mGluRGeo>
+      </ExtraSynapticElements>
+    </SynapticGeometry>
+  </GlutamatergicSynapse>
+  <PostsynapticPotential>
+    <EPSP>
+      <Parameters>
+        <Eoff unit="mV" type="constant">-70.0</Eoff>
+        <tauS unit="substance" type="constant">0.01</tauS>
+        <RS unit="substance" type="constant">2.0</RS>
+        <RD unit="substance" type="constant">0.1</RD>
+        <tauD unit="substance" type="constant">0.72</tauD>
+        <RSD unit="substance" type="constant">0.37</RSD>
+        <tausmooth unit="substance" type="constant">0.001</tausmooth>
+        <dist unit="substance" type="constant">20.0</dist>
+        <VS type="rate">-70.0</VS>
+        <VD type="rate">-70.0</VD>
+        <ISD type="rate">0.0</ISD>
+        <IGLU type="input">0.0</IGLU>
+        <IGABA type="input">0.0</IGABA>
+        <ISD0 unit="substance" type="assigned">0.0</ISD0>
+      </Parameters>
+      <SimParameters>
+        <StartFromEquilibrium>false</StartFromEquilibrium>
+        <TrimmedResults>true</TrimmedResults>
+        <ShowStepSize>true</ShowStepSize>
+        <WriteToFile>true</WriteToFile>
+        <TypeFile>Simple</TypeFile>
+        <AddDerivTol>false</AddDerivTol>
+        <Method>Runge-Kutta 4th</Method>
+      </SimParameters>
+      <AlgorithmParameters>
+        <MaxStepSize>0.01</MaxStepSize>
+        <MinStepSize>5.0E-4</MinStepSize>
+        <Epsylon>1.0E-13</Epsylon>
+        <EpsylonA>1.0E-25</EpsylonA>
+        <AccelerationFactor>1.0</AccelerationFactor>
+      </AlgorithmParameters>
+    </EPSP>
+  </PostsynapticPotential>
+  <Simulation>
+    <Duration>4000.0</Duration>
+    <Animation>false</Animation>
+    <TrimmedResultsSim>false</TrimmedResultsSim>
+    <WriteFileSim>false</WriteFileSim>
+    <PostSynVoltClampProt>false</PostSynVoltClampProt>
+    <PostSynVoltClampProtValue>-70.0</PostSynVoltClampProtValue>
+    <TabResults>
+      <Model name="VDCC L type" result="Ica" />
+      <Model name="VDCC N type" result="Icanm" />
+      <Model name="VDCC N type" result="V" />
+      <Model name="Presyn Ca Diffusion" result="Conc_Ca_Presyn" />
+      <Model name="Presyn nACh" result="current_nAchR" />
+      <Model name="Presyn nACh" result="Ach" />
+      <Model name="AChE" result="S" />
+      <Model name="AChE" result="NT_driver" />
+      <Model name="NT Release" result="NT" />
+      <Model name="AMPA Receptor" result="current_AMPA" />
+      <Model name="AMPA Receptor" result="Glu" />
+      <Model name="NMDA Receptor" result="current" />
+      <Model name="NMDA Receptor" result="Glu" />
+      <Model name="NMDA Receptor" result="Vm" /> 
+      <Model name="Cytosol" result="AllCurrents" />
+      <Model name="mGluR Metamodel" result="IP3" />
+      <Model name="mGluR Metamodel" result="Ca" />
+      <Model name="mGluR Metamodel" result="L" />
+      <Model name="LTP" result="ampaNbModFactor" />
+      <Model name="GluT" result="Glu_clearance" />
+      <Model name="EPSP" result="VS" />
+      <Model name="EPSP" result="VD" />
+      <Model name="GLU Diffusion" result="tmp_fake"/>
+    </TabResults>
+    <BatchMode>false</BatchMode>
+  </Simulation>
+  <Positions>
+    <NTypeCaChannel posX="115" posY="20" />
+    <NTypeCaChannel posX="185" posY="20" />
+    <NTypeCaChannel posX="195" posY="20" />
+    <NTypeCaChannel posX="215" posY="20" />
+    <NTypeCaChannel posX="225" posY="20" />
+    <NTypeCaChannel posX="235" posY="20" />
+    <LTypeCaChannel posX="125" posY="20" />
+    <LTypeCaChannel posX="175" posY="20" />
+    <LTypeCaChannel posX="245" posY="20" />
+    <CaBuf posX="155" posY="55" />
+    <CaBuf posX="235" posY="55" />
+    <CaPump posX="135" posY="20" />
+    <CaPump posX="255" posY="20" />
+    <A7ACh posX="105" posY="20" />
+    <AMPA posX="126" posY="0" />
+    <NMDA posX="262" posY="0" />
+    <MGluR posX="280" posY="0" />
+    <Vesicle posX="205" posY="20" />
+  </Positions>
+</SimulationParameters>

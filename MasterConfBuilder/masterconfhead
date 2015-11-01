@@ -1,0 +1,13 @@
+<?xml version="1.0" ?><!--Master.xml--><Masterconf>
+	<DebugMode>false</DebugMode>
+	<Duration>2000</Duration>
+	<StepSize>0.0005</StepSize><!--does not work with another value anyway -->
+	<port_i>41012</port_i>
+	<port_j>41010</port_j>
+
+	<ComFactor>250</ComFactor> <!--comm 1 every commfactor steps -->
+	<StoreInDB Password="laloue" URL="jdbc:mysql://eons3ghz.usc.edu/testdb" Username="laloue">false</StoreInDB>
+	<ResultsDirectory>/auto/rcf-proj/tb/mikehuan/neuron_Files/Migfer/Results_2013_6_13_15:10:8</ResultsDirectory>
+
+	<Network>
+		<Neuron description="For Database" name="dendrite_01">

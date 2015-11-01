@@ -1,0 +1,51 @@
+#!/usr/bin/expect -f
+set timeout -1
+spawn ssh $::env(username)@hpc-login2.usc.edu 
+expect "$ " 
+send "set qsubwait = qsub`sed -n '\$p' queue`.sh\r"
+expect "$ "
+send "sed \"s/qsubwait.sh/\$qsubwait/g\" qsubwait.sh >> \$qsubwait\r"
+expect "$ " 
+send "sh \$qsubwait\r"
+expect "$ "
+sleep 25
+send "exit\r"
+expect "$ "
+spawn scp parameters.txt $::env(username)@hpc-login2.usc.edu:~/
+expect "$ "
+spawn scp paramsync.sh $::env(username)@hpc-login2.usc.edu:~/
+expect "$ "
+spawn scp $::env(NEURONPYFI) $::env(username)@hpc-login2.usc.edu:$::env(NEURON_HOME)
+expect "$ "
+spawn ssh $::env(username)@hpc-login2.usc.edu 
+expect "$ " 
+send "sh paramsync.sh\r"
+expect "$ "
+send "set nbsynapses = `grep -c \\\<Synapse\\\> $::env(MASTERCONF)`\r"
+expect "$ "
+send "set nbnodes = `expr \$nbsynapses + 2`\r"
+expect "$ "
+send "echo qsub`sed -n '\$p' queue`.sh >> qsubwaitqueue\r"
+expect "$ "
+send "qsub -I -q berger -A lc_tb -l nodes=\$nbnodes -l walltime=24:00:00 -d .\r"
+expect "$ "
+send "cp \$PBS_NODEFILE node`sed -n '1p' nodequeue2`\r"
+expect "$ "
+send "sed -i '1d' nodequeue2\r"
+expect "$ "
+send "sed -i '/wait=on/ s//wait=off/' `sed -n '1p' qsubwaitqueue`\r"
+expect "$ "
+send "sed -i '1d' qsubwaitqueue\r"
+expect "$ "
+sleep 25
+send "cd $::env(MPJ_HOME)/bin\r"
+expect "$ "
+send "sh $::env(MPJLAUNCH)\r"
+expect "$ "
+sleep 100
+expect eof
+
+
+
+
+

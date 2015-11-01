@@ -1,0 +1,106 @@
+<?xml version="1.0" ?><!--Master.xml--><Masterconf>
+	<DebugMode>false</DebugMode>
+	<Duration>2000</Duration>
+	<StepSize>0.0005</StepSize><!--does not work with another value anyway -->
+	<port_i>41012</port_i>
+	<port_j>41010</port_j>
+	<ComFactor>250</ComFactor> <!--comm 1 every commfactor steps -->
+	<StoreInDB Password="laloue" URL="jdbc:mysql://eons3ghz.usc.edu/testdb" Username="laloue">false</StoreInDB>
+	<ResultsDirectory>/auto/rcf-proj/tb/mikehuan/neuron_Files/Migfer/Results_2013_6_13_15:10:8</ResultsDirectory>
+
+	<Network>
+		<Neuron description="For Database" name="dendrite_01">
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[91]">0.269231</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[91]">0.653846</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[75]">0.65</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[80]">0.576923</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[76]">0.357143</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[83]">0.25</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[46]">0.346154</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[70]">0.791667</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[65]">0.3125</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[64]">0.65</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[59]">0.3125</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[68]">0.681818</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[65]">0.6875</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[62]">0.928571</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[85]">0.227273</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[77]">0.5</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[68]">0.13634</Position>
+			</Synapse>
+			<Synapse>
+				<file>SYNAPSECONF</file>
+				<input>Internal</input>
+				<Position Section="dend[20]">0.916667</Position>
+			</Synapse>
+		</Neuron>
+	</Network>
+
+</Masterconf>
